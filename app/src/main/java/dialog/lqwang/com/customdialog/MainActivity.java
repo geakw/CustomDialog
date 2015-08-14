@@ -17,8 +17,7 @@ import android.widget.Button;
 public class MainActivity extends Activity implements View.OnClickListener {
     private Button show;
     private Button hide;
-    private static final String SERVICE_LINES = "021-24099095";
-    private Dialog callDialog;//客服电话的dialog
+    private Dialog callDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
